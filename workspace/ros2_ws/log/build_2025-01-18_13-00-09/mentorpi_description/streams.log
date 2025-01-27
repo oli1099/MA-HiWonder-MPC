@@ -1,0 +1,63 @@
+[3.577s] Invoking command in '/home/oli/workspace/ros2_ws/src/simulations/mentorpi_description': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/oli/workspace/ros2_ws/build/mentorpi_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/oli/workspace/ros2_ws/install/mentorpi_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mentorpi_description build --build-base /home/oli/workspace/ros2_ws/build/mentorpi_description/build install --record /home/oli/workspace/ros2_ws/build/mentorpi_description/install.log --single-version-externally-managed install_data
+[4.230s] running egg_info
+[4.230s] creating ../../../build/mentorpi_description/mentorpi_description.egg-info
+[4.261s] writing ../../../build/mentorpi_description/mentorpi_description.egg-info/PKG-INFO
+[4.261s] writing dependency_links to ../../../build/mentorpi_description/mentorpi_description.egg-info/dependency_links.txt
+[4.261s] writing requirements to ../../../build/mentorpi_description/mentorpi_description.egg-info/requires.txt
+[4.262s] writing top-level names to ../../../build/mentorpi_description/mentorpi_description.egg-info/top_level.txt
+[4.262s] writing manifest file '../../../build/mentorpi_description/mentorpi_description.egg-info/SOURCES.txt'
+[4.338s] reading manifest file '../../../build/mentorpi_description/mentorpi_description.egg-info/SOURCES.txt'
+[4.339s] writing manifest file '../../../build/mentorpi_description/mentorpi_description.egg-info/SOURCES.txt'
+[4.339s] running build
+[4.340s] running build_py
+[4.340s] creating /home/oli/workspace/ros2_ws/build/mentorpi_description/build
+[4.343s] creating /home/oli/workspace/ros2_ws/build/mentorpi_description/build/lib
+[4.343s] creating /home/oli/workspace/ros2_ws/build/mentorpi_description/build/lib/mentorpi_description
+[4.343s] copying mentorpi_description/__init__.py -> /home/oli/workspace/ros2_ws/build/mentorpi_description/build/lib/mentorpi_description
+[4.343s] running install
+[4.349s] running install_lib
+[4.381s] creating /home/oli/workspace/ros2_ws/install/mentorpi_description/lib/python3.12/site-packages/mentorpi_description
+[4.381s] copying /home/oli/workspace/ros2_ws/build/mentorpi_description/build/lib/mentorpi_description/__init__.py -> /home/oli/workspace/ros2_ws/install/mentorpi_description/lib/python3.12/site-packages/mentorpi_description
+[4.383s] byte-compiling /home/oli/workspace/ros2_ws/install/mentorpi_description/lib/python3.12/site-packages/mentorpi_description/__init__.py to __init__.cpython-312.pyc
+[4.383s] running install_data
+[4.384s] creating /home/oli/workspace/ros2_ws/install/mentorpi_description/share/ament_index
+[4.384s] creating /home/oli/workspace/ros2_ws/install/mentorpi_description/share/ament_index/resource_index
+[4.384s] creating /home/oli/workspace/ros2_ws/install/mentorpi_description/share/ament_index/resource_index/packages
+[4.385s] copying resource/mentorpi_description -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/ament_index/resource_index/packages
+[4.385s] copying package.xml -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description
+[4.385s] creating /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/launch
+[4.386s] copying launch/robot_description.launch.py -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/launch
+[4.386s] copying launch/rviz.launch.py -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/launch
+[4.386s] copying launch/display.launch.py -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/launch
+[4.386s] creating /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/urdf
+[4.386s] copying urdf/inertial_matrix.xacro -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/urdf
+[4.386s] copying urdf/imu.urdf.xacro -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/urdf
+[4.387s] copying urdf/materials.xacro -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/urdf
+[4.388s] copying urdf/mecanum.xacro -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/urdf
+[4.388s] copying urdf/ack.xacro -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/urdf
+[4.388s] copying urdf/mentorpi.xacro -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/urdf
+[4.388s] copying urdf/lidar.urdf.xacro -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/urdf
+[4.388s] creating /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/rviz
+[4.388s] copying rviz/view.rviz -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/rviz
+[4.389s] creating /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/meshes
+[4.389s] creating /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/meshes/acker
+[4.389s] copying meshes/acker/wheel_lf_Link.STL -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/meshes/acker
+[4.389s] copying meshes/acker/imu_link.stl -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/meshes/acker
+[4.389s] copying meshes/acker/lidar_Link.STL -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/meshes/acker
+[4.390s] copying meshes/acker/base_link.STL -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/meshes/acker
+[4.390s] copying meshes/acker/wheel_rb_Link.STL -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/meshes/acker
+[4.393s] copying meshes/acker/wheel_lb_Link.STL -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/meshes/acker
+[4.396s] copying meshes/acker/cam_Link.STL -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/meshes/acker
+[4.401s] copying meshes/acker/wheel_rf_Link.STL -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/meshes/acker
+[4.403s] creating /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/meshes/mecanum
+[4.404s] copying meshes/mecanum/wheel_lf_Link.STL -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/meshes/mecanum
+[4.414s] copying meshes/mecanum/lidar_Link.STL -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/meshes/mecanum
+[4.414s] copying meshes/mecanum/base_link.STL -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/meshes/mecanum
+[4.414s] copying meshes/mecanum/wheel_rb_Link.STL -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/meshes/mecanum
+[4.422s] copying meshes/mecanum/wheel_lb_Link.STL -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/meshes/mecanum
+[4.431s] copying meshes/mecanum/cam_Link.STL -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/meshes/mecanum
+[4.436s] copying meshes/mecanum/wheel_rf_Link.STL -> /home/oli/workspace/ros2_ws/install/mentorpi_description/share/mentorpi_description/meshes/mecanum
+[4.449s] running install_egg_info
+[4.496s] Copying ../../../build/mentorpi_description/mentorpi_description.egg-info to /home/oli/workspace/ros2_ws/install/mentorpi_description/lib/python3.12/site-packages/mentorpi_description-0.0.0-py3.12.egg-info
+[4.496s] running install_scripts
+[4.718s] writing list of installed files to '/home/oli/workspace/ros2_ws/build/mentorpi_description/install.log'

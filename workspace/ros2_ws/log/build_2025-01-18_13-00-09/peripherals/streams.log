@@ -1,0 +1,73 @@
+[3.614s] Invoking command in '/home/oli/workspace/ros2_ws/src/peripherals': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/oli/workspace/ros2_ws/build/peripherals/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/oli/workspace/ros2_ws/install/peripherals/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/peripherals build --build-base /home/oli/workspace/ros2_ws/build/peripherals/build install --record /home/oli/workspace/ros2_ws/build/peripherals/install.log --single-version-externally-managed install_data
+[4.243s] running egg_info
+[4.243s] creating ../../build/peripherals/peripherals.egg-info
+[4.289s] writing ../../build/peripherals/peripherals.egg-info/PKG-INFO
+[4.290s] writing dependency_links to ../../build/peripherals/peripherals.egg-info/dependency_links.txt
+[4.290s] writing entry points to ../../build/peripherals/peripherals.egg-info/entry_points.txt
+[4.290s] writing requirements to ../../build/peripherals/peripherals.egg-info/requires.txt
+[4.290s] writing top-level names to ../../build/peripherals/peripherals.egg-info/top_level.txt
+[4.291s] writing manifest file '../../build/peripherals/peripherals.egg-info/SOURCES.txt'
+[4.386s] reading manifest file '../../build/peripherals/peripherals.egg-info/SOURCES.txt'
+[4.387s] writing manifest file '../../build/peripherals/peripherals.egg-info/SOURCES.txt'
+[4.387s] running build
+[4.387s] running build_py
+[4.388s] creating /home/oli/workspace/ros2_ws/build/peripherals/build
+[4.388s] creating /home/oli/workspace/ros2_ws/build/peripherals/build/lib
+[4.388s] creating /home/oli/workspace/ros2_ws/build/peripherals/build/lib/peripherals
+[4.388s] copying peripherals/joystick_control.py -> /home/oli/workspace/ros2_ws/build/peripherals/build/lib/peripherals
+[4.388s] copying peripherals/tf_broadcaster_imu.py -> /home/oli/workspace/ros2_ws/build/peripherals/build/lib/peripherals
+[4.389s] copying peripherals/__init__.py -> /home/oli/workspace/ros2_ws/build/peripherals/build/lib/peripherals
+[4.389s] copying peripherals/demo.py -> /home/oli/workspace/ros2_ws/build/peripherals/build/lib/peripherals
+[4.389s] copying peripherals/teleop_key_control.py -> /home/oli/workspace/ros2_ws/build/peripherals/build/lib/peripherals
+[4.389s] running install
+[4.406s] running install_lib
+[4.453s] creating /home/oli/workspace/ros2_ws/install/peripherals/lib/python3.12/site-packages/peripherals
+[4.453s] copying /home/oli/workspace/ros2_ws/build/peripherals/build/lib/peripherals/joystick_control.py -> /home/oli/workspace/ros2_ws/install/peripherals/lib/python3.12/site-packages/peripherals
+[4.457s] copying /home/oli/workspace/ros2_ws/build/peripherals/build/lib/peripherals/tf_broadcaster_imu.py -> /home/oli/workspace/ros2_ws/install/peripherals/lib/python3.12/site-packages/peripherals
+[4.457s] copying /home/oli/workspace/ros2_ws/build/peripherals/build/lib/peripherals/__init__.py -> /home/oli/workspace/ros2_ws/install/peripherals/lib/python3.12/site-packages/peripherals
+[4.457s] copying /home/oli/workspace/ros2_ws/build/peripherals/build/lib/peripherals/demo.py -> /home/oli/workspace/ros2_ws/install/peripherals/lib/python3.12/site-packages/peripherals
+[4.458s] copying /home/oli/workspace/ros2_ws/build/peripherals/build/lib/peripherals/teleop_key_control.py -> /home/oli/workspace/ros2_ws/install/peripherals/lib/python3.12/site-packages/peripherals
+[4.458s] byte-compiling /home/oli/workspace/ros2_ws/install/peripherals/lib/python3.12/site-packages/peripherals/joystick_control.py to joystick_control.cpython-312.pyc
+[4.462s] byte-compiling /home/oli/workspace/ros2_ws/install/peripherals/lib/python3.12/site-packages/peripherals/tf_broadcaster_imu.py to tf_broadcaster_imu.cpython-312.pyc
+[4.463s] byte-compiling /home/oli/workspace/ros2_ws/install/peripherals/lib/python3.12/site-packages/peripherals/__init__.py to __init__.cpython-312.pyc
+[4.464s] byte-compiling /home/oli/workspace/ros2_ws/install/peripherals/lib/python3.12/site-packages/peripherals/demo.py to demo.cpython-312.pyc
+[4.467s] byte-compiling /home/oli/workspace/ros2_ws/install/peripherals/lib/python3.12/site-packages/peripherals/teleop_key_control.py to teleop_key_control.cpython-312.pyc
+[4.468s] running install_data
+[4.468s] creating /home/oli/workspace/ros2_ws/install/peripherals/share/ament_index
+[4.469s] creating /home/oli/workspace/ros2_ws/install/peripherals/share/ament_index/resource_index
+[4.470s] creating /home/oli/workspace/ros2_ws/install/peripherals/share/ament_index/resource_index/packages
+[4.471s] copying resource/peripherals -> /home/oli/workspace/ros2_ws/install/peripherals/share/ament_index/resource_index/packages
+[4.471s] copying package.xml -> /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals
+[4.471s] creating /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/launch
+[4.472s] copying launch/usb_cam.launch.py -> /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/launch
+[4.472s] copying launch/lidar_view.launch.py -> /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/launch
+[4.472s] copying launch/depth_camera.launch.py -> /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/launch
+[4.472s] copying launch/imu_filter.launch.py -> /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/launch
+[4.473s] copying launch/teleop_key_control.launch.py -> /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/launch
+[4.473s] copying launch/joystick_control.launch.py -> /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/launch
+[4.473s] copying launch/imu_view.launch.py -> /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/launch
+[4.473s] copying launch/lidar.launch.py -> /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/launch
+[4.474s] creating /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/launch/include
+[4.474s] copying launch/include/sllidar_a1.launch.py -> /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/launch/include
+[4.474s] copying launch/include/hp60c_cp.launch.py -> /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/launch/include
+[4.475s] copying launch/include/ydlidar_g4.launch.py -> /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/launch/include
+[4.475s] copying launch/include/hp60c.launch.py -> /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/launch/include
+[4.475s] copying launch/include/ascamera.launch.py -> /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/launch/include
+[4.475s] copying launch/include/ldlidar_LD19.launch.py -> /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/launch/include
+[4.476s] creating /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/config
+[4.476s] copying config/lidar_filters_config_a1.yaml -> /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/config
+[4.477s] copying config/usb_cam_param.yaml -> /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/config
+[4.477s] copying config/lidar_filters_config_ld19.yaml -> /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/config
+[4.477s] copying config/lidar_filters_config_g4.yaml -> /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/config
+[4.478s] copying config/lidar_filters_config_ld14p.yaml -> /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/config
+[4.478s] copying config/camera_info.yaml -> /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/config
+[4.478s] creating /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/rviz
+[4.478s] copying rviz/imu_view.rviz -> /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/rviz
+[4.478s] copying rviz/lidar_view.rviz -> /home/oli/workspace/ros2_ws/install/peripherals/share/peripherals/rviz
+[4.479s] running install_egg_info
+[4.520s] Copying ../../build/peripherals/peripherals.egg-info to /home/oli/workspace/ros2_ws/install/peripherals/lib/python3.12/site-packages/peripherals-0.0.0-py3.12.egg-info
+[4.521s] running install_scripts
+[4.727s] Installing joystick_control script to /home/oli/workspace/ros2_ws/install/peripherals/lib/peripherals
+[4.727s] Installing teleop_key_control script to /home/oli/workspace/ros2_ws/install/peripherals/lib/peripherals
+[4.727s] Installing tf_broadcaster_imu script to /home/oli/workspace/ros2_ws/install/peripherals/lib/peripherals
+[4.727s] writing list of installed files to '/home/oli/workspace/ros2_ws/build/peripherals/install.log'

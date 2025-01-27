@@ -1,0 +1,41 @@
+[3.592s] Invoking command in '/home/oli/workspace/ros2_ws/src/driver/ros_robot_controller': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/oli/workspace/ros2_ws/build/ros_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/oli/workspace/ros2_ws/install/ros_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros_robot_controller build --build-base /home/oli/workspace/ros2_ws/build/ros_robot_controller/build install --record /home/oli/workspace/ros2_ws/build/ros_robot_controller/install.log --single-version-externally-managed install_data
+[4.242s] running egg_info
+[4.242s] creating ../../../build/ros_robot_controller/ros_robot_controller.egg-info
+[4.275s] writing ../../../build/ros_robot_controller/ros_robot_controller.egg-info/PKG-INFO
+[4.276s] writing dependency_links to ../../../build/ros_robot_controller/ros_robot_controller.egg-info/dependency_links.txt
+[4.276s] writing entry points to ../../../build/ros_robot_controller/ros_robot_controller.egg-info/entry_points.txt
+[4.276s] writing requirements to ../../../build/ros_robot_controller/ros_robot_controller.egg-info/requires.txt
+[4.277s] writing top-level names to ../../../build/ros_robot_controller/ros_robot_controller.egg-info/top_level.txt
+[4.277s] writing manifest file '../../../build/ros_robot_controller/ros_robot_controller.egg-info/SOURCES.txt'
+[4.375s] reading manifest file '../../../build/ros_robot_controller/ros_robot_controller.egg-info/SOURCES.txt'
+[4.377s] writing manifest file '../../../build/ros_robot_controller/ros_robot_controller.egg-info/SOURCES.txt'
+[4.377s] running build
+[4.377s] running build_py
+[4.378s] creating /home/oli/workspace/ros2_ws/build/ros_robot_controller/build
+[4.379s] creating /home/oli/workspace/ros2_ws/build/ros_robot_controller/build/lib
+[4.380s] creating /home/oli/workspace/ros2_ws/build/ros_robot_controller/build/lib/ros_robot_controller
+[4.381s] copying ros_robot_controller/__init__.py -> /home/oli/workspace/ros2_ws/build/ros_robot_controller/build/lib/ros_robot_controller
+[4.381s] copying ros_robot_controller/ros_robot_controller_sdk.py -> /home/oli/workspace/ros2_ws/build/ros_robot_controller/build/lib/ros_robot_controller
+[4.381s] copying ros_robot_controller/ros_robot_controller_node.py -> /home/oli/workspace/ros2_ws/build/ros_robot_controller/build/lib/ros_robot_controller
+[4.381s] running install
+[4.395s] running install_lib
+[4.445s] creating /home/oli/workspace/ros2_ws/install/ros_robot_controller/lib/python3.12/site-packages/ros_robot_controller
+[4.445s] copying /home/oli/workspace/ros2_ws/build/ros_robot_controller/build/lib/ros_robot_controller/__init__.py -> /home/oli/workspace/ros2_ws/install/ros_robot_controller/lib/python3.12/site-packages/ros_robot_controller
+[4.446s] copying /home/oli/workspace/ros2_ws/build/ros_robot_controller/build/lib/ros_robot_controller/ros_robot_controller_sdk.py -> /home/oli/workspace/ros2_ws/install/ros_robot_controller/lib/python3.12/site-packages/ros_robot_controller
+[4.446s] copying /home/oli/workspace/ros2_ws/build/ros_robot_controller/build/lib/ros_robot_controller/ros_robot_controller_node.py -> /home/oli/workspace/ros2_ws/install/ros_robot_controller/lib/python3.12/site-packages/ros_robot_controller
+[4.447s] byte-compiling /home/oli/workspace/ros2_ws/install/ros_robot_controller/lib/python3.12/site-packages/ros_robot_controller/__init__.py to __init__.cpython-312.pyc
+[4.448s] byte-compiling /home/oli/workspace/ros2_ws/install/ros_robot_controller/lib/python3.12/site-packages/ros_robot_controller/ros_robot_controller_sdk.py to ros_robot_controller_sdk.cpython-312.pyc
+[4.454s] byte-compiling /home/oli/workspace/ros2_ws/install/ros_robot_controller/lib/python3.12/site-packages/ros_robot_controller/ros_robot_controller_node.py to ros_robot_controller_node.cpython-312.pyc
+[4.458s] running install_data
+[4.459s] creating /home/oli/workspace/ros2_ws/install/ros_robot_controller/share/ament_index
+[4.459s] creating /home/oli/workspace/ros2_ws/install/ros_robot_controller/share/ament_index/resource_index
+[4.459s] creating /home/oli/workspace/ros2_ws/install/ros_robot_controller/share/ament_index/resource_index/packages
+[4.460s] copying resource/ros_robot_controller -> /home/oli/workspace/ros2_ws/install/ros_robot_controller/share/ament_index/resource_index/packages
+[4.460s] copying package.xml -> /home/oli/workspace/ros2_ws/install/ros_robot_controller/share/ros_robot_controller
+[4.460s] creating /home/oli/workspace/ros2_ws/install/ros_robot_controller/share/ros_robot_controller/launch
+[4.460s] copying launch/ros_robot_controller.launch.py -> /home/oli/workspace/ros2_ws/install/ros_robot_controller/share/ros_robot_controller/launch
+[4.460s] running install_egg_info
+[4.506s] Copying ../../../build/ros_robot_controller/ros_robot_controller.egg-info to /home/oli/workspace/ros2_ws/install/ros_robot_controller/lib/python3.12/site-packages/ros_robot_controller-0.0.0-py3.12.egg-info
+[4.508s] running install_scripts
+[4.711s] Installing ros_robot_controller script to /home/oli/workspace/ros2_ws/install/ros_robot_controller/lib/ros_robot_controller
+[4.712s] writing list of installed files to '/home/oli/workspace/ros2_ws/build/ros_robot_controller/install.log'

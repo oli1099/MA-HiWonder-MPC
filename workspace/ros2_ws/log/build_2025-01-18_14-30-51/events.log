@@ -1,0 +1,183 @@
+[0.000000] (-) TimerEvent: {}
+[0.000474] (calibration) JobQueued: {'identifier': 'calibration', 'dependencies': OrderedDict()}
+[0.000532] (controller) JobQueued: {'identifier': 'controller', 'dependencies': OrderedDict()}
+[0.000564] (imu_calib) JobQueued: {'identifier': 'imu_calib', 'dependencies': OrderedDict()}
+[0.000586] (ldlidar_component) JobQueued: {'identifier': 'ldlidar_component', 'dependencies': OrderedDict()}
+[0.001000] (ldlidar_stl_ros2) JobQueued: {'identifier': 'ldlidar_stl_ros2', 'dependencies': OrderedDict()}
+[0.001028] (mentorpi_description) JobQueued: {'identifier': 'mentorpi_description', 'dependencies': OrderedDict()}
+[0.001075] (peripherals) JobQueued: {'identifier': 'peripherals', 'dependencies': OrderedDict()}
+[0.001289] (ros_robot_controller) JobQueued: {'identifier': 'ros_robot_controller', 'dependencies': OrderedDict()}
+[0.001311] (ros_robot_controller_msgs) JobQueued: {'identifier': 'ros_robot_controller_msgs', 'dependencies': OrderedDict()}
+[0.001331] (sdk) JobQueued: {'identifier': 'sdk', 'dependencies': OrderedDict()}
+[0.001351] (ldlidar_node) JobQueued: {'identifier': 'ldlidar_node', 'dependencies': OrderedDict({'ldlidar_component': '/home/oli/workspace/ros2_ws/install/ldlidar_component'})}
+[0.001383] (orchestrator_launch) JobQueued: {'identifier': 'orchestrator_launch', 'dependencies': OrderedDict({'controller': '/home/oli/workspace/ros2_ws/install/controller', 'peripherals': '/home/oli/workspace/ros2_ws/install/peripherals'})}
+[0.001411] (ldlidar) JobQueued: {'identifier': 'ldlidar', 'dependencies': OrderedDict({'ldlidar_component': '/home/oli/workspace/ros2_ws/install/ldlidar_component', 'ldlidar_node': '/home/oli/workspace/ros2_ws/install/ldlidar_node'})}
+[0.001453] (ldlidar_component) JobStarted: {'identifier': 'ldlidar_component'}
+[0.013783] (controller) JobStarted: {'identifier': 'controller'}
+[0.024911] (peripherals) JobStarted: {'identifier': 'peripherals'}
+[0.035176] (calibration) JobStarted: {'identifier': 'calibration'}
+[0.046822] (imu_calib) JobStarted: {'identifier': 'imu_calib'}
+[0.054336] (ldlidar_stl_ros2) JobStarted: {'identifier': 'ldlidar_stl_ros2'}
+[0.062217] (mentorpi_description) JobStarted: {'identifier': 'mentorpi_description'}
+[0.072382] (ros_robot_controller) JobStarted: {'identifier': 'ros_robot_controller'}
+[0.093508] (ldlidar_component) JobProgress: {'identifier': 'ldlidar_component', 'progress': 'cmake'}
+[0.096034] (ldlidar_component) Command: {'cmd': ['/usr/bin/cmake', '/home/oli/workspace/ros2_ws/src/ldrobot-lidar-ros2/ldlidar_component', '-DCMAKE_INSTALL_PREFIX=/home/oli/workspace/ros2_ws/install/ldlidar_component'], 'cwd': '/home/oli/workspace/ros2_ws/build/ldlidar_component', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'oli', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/oli', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/oli', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '1713', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/oli/workspace/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'oli', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'oli', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'PATH': '/opt/ros/jazzy/bin:/home/oli/miniforge3/condabin:/home/oli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/oli-XPS-13-9370:@/tmp/.ICE-unix/1678,unix/oli-XPS-13-9370:/tmp/.ICE-unix/1678', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5c6b10ad_0412_447a_a364_f1304e3e3808', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'MAMBA_ROOT_PREFIX': '/home/oli/miniforge3', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SKPJ02', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.125', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/oli/miniforge3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/oli/workspace/ros2_ws/build/ldlidar_component', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/oli/miniforge3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099877] (-) TimerEvent: {}
+[0.200353] (-) TimerEvent: {}
+[0.300804] (-) TimerEvent: {}
+[0.401267] (-) TimerEvent: {}
+[0.501759] (-) TimerEvent: {}
+[0.602299] (-) TimerEvent: {}
+[0.702653] (-) TimerEvent: {}
+[0.803122] (-) TimerEvent: {}
+[0.903506] (-) TimerEvent: {}
+[1.003854] (-) TimerEvent: {}
+[1.104339] (-) TimerEvent: {}
+[1.204720] (-) TimerEvent: {}
+[1.305103] (-) TimerEvent: {}
+[1.344926] (imu_calib) JobProgress: {'identifier': 'imu_calib', 'progress': 'cmake'}
+[1.347470] (imu_calib) Command: {'cmd': ['/usr/bin/cmake', '/home/oli/workspace/ros2_ws/src/imu_calib', '-DCMAKE_INSTALL_PREFIX=/home/oli/workspace/ros2_ws/install/imu_calib'], 'cwd': '/home/oli/workspace/ros2_ws/build/imu_calib', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'oli', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/oli', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/oli', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '1713', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/oli/workspace/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'oli', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'oli', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'PATH': '/opt/ros/jazzy/bin:/home/oli/miniforge3/condabin:/home/oli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/oli-XPS-13-9370:@/tmp/.ICE-unix/1678,unix/oli-XPS-13-9370:/tmp/.ICE-unix/1678', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5c6b10ad_0412_447a_a364_f1304e3e3808', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'MAMBA_ROOT_PREFIX': '/home/oli/miniforge3', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SKPJ02', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.125', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/oli/miniforge3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/oli/workspace/ros2_ws/build/imu_calib', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/oli/miniforge3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.349647] (ldlidar_stl_ros2) JobProgress: {'identifier': 'ldlidar_stl_ros2', 'progress': 'cmake'}
+[1.351959] (ldlidar_stl_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/oli/workspace/ros2_ws/src/ldlidar_stl_ros2', '-DCMAKE_INSTALL_PREFIX=/home/oli/workspace/ros2_ws/install/ldlidar_stl_ros2'], 'cwd': '/home/oli/workspace/ros2_ws/build/ldlidar_stl_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'oli', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/oli', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/oli', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '1713', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/oli/workspace/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'oli', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'oli', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'PATH': '/opt/ros/jazzy/bin:/home/oli/miniforge3/condabin:/home/oli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/oli-XPS-13-9370:@/tmp/.ICE-unix/1678,unix/oli-XPS-13-9370:/tmp/.ICE-unix/1678', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5c6b10ad_0412_447a_a364_f1304e3e3808', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'MAMBA_ROOT_PREFIX': '/home/oli/miniforge3', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SKPJ02', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.125', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/oli/miniforge3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/oli/workspace/ros2_ws/build/ldlidar_stl_ros2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/oli/miniforge3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.405224] (-) TimerEvent: {}
+[1.505670] (-) TimerEvent: {}
+[1.606150] (-) TimerEvent: {}
+[1.706586] (-) TimerEvent: {}
+[1.799362] (ldlidar_component) StdoutLine: {'line': b'--  * Release Mode\n'}
+[1.800697] (ldlidar_component) StdoutLine: {'line': b'-- * Found ROS2 jazzy\n'}
+[1.800949] (ldlidar_component) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.801101] (ldlidar_component) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 28.1.6 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)\n'}
+[1.801229] (ldlidar_component) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.801342] (ldlidar_component) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.801455] (ldlidar_component) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.801567] (ldlidar_component) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.801678] (ldlidar_component) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.801790] (ldlidar_component) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.801901] (ldlidar_component) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.802809] (ldlidar_component) StdoutLine: {'line': b'-- Found rclcpp_components: 28.1.6 (/opt/ros/jazzy/share/rclcpp_components/cmake)\n'}
+[1.803083] (ldlidar_component) StdoutLine: {'line': b'-- Found nav2_util: 1.3.4 (/opt/ros/jazzy/share/nav2_util/cmake)\n'}
+[1.803300] (ldlidar_component) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[1.803489] (ldlidar_component) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.803686] (ldlidar_component) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.803901] (ldlidar_component) StdoutLine: {'line': b'-- Found diagnostic_msgs: 5.3.5 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)\n'}
+[1.804443] (ldlidar_component) StdoutLine: {'line': b'-- Found diagnostic_updater: 4.2.1 (/opt/ros/jazzy/share/diagnostic_updater/cmake)\n'}
+[1.804655] (ldlidar_component) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.804841] (ldlidar_component) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:72 (message):\n'}
+[1.805068] (ldlidar_component) StderrLine: {'line': b'  ROS2 jazzy is not officially supported by this package.  Correct working is\n'}
+[1.805268] (ldlidar_component) StderrLine: {'line': b'  not guarantee.\n'}
+[1.805454] (ldlidar_component) StderrLine: {'line': b'\n'}
+[1.805636] (ldlidar_component) StderrLine: {'line': b'\x1b[0m\n'}
+[1.805819] (imu_calib) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.806136] (imu_calib) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.806330] (imu_calib) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.806514] (imu_calib) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.806692] (-) TimerEvent: {}
+[1.808285] (imu_calib) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.808876] (imu_calib) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.809161] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.810078] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.810308] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.810501] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.810690] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.810872] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.812095] (ldlidar_component) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.812457] (ldlidar_component) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>\n'}
+[1.812587] (ldlidar_component) StderrLine: {'line': b'    from catkin_pkg.package import parse_package_string\n'}
+[1.812699] (ldlidar_component) StderrLine: {'line': b"ModuleNotFoundError: No module named 'catkin_pkg'\n"}
+[1.820419] (ldlidar_component) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[1.820770] (ldlidar_component) StderrLine: {'line': b'  execute_process(/home/oli/miniforge3/bin/python3\n'}
+[1.821018] (ldlidar_component) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[1.821359] (ldlidar_component) StderrLine: {'line': b'  /home/oli/workspace/ros2_ws/src/ldrobot-lidar-ros2/ldlidar_component/package.xml\n'}
+[1.821770] (ldlidar_component) StderrLine: {'line': b'  /home/oli/workspace/ros2_ws/build/ldlidar_component/ament_cmake_core/package.cmake)\n'}
+[1.822098] (ldlidar_component) StderrLine: {'line': b'  returned error code 1\n'}
+[1.822351] (ldlidar_component) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.822627] (ldlidar_component) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[1.822939] (ldlidar_component) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[1.823353] (ldlidar_component) StderrLine: {'line': b'  CMakeLists.txt:204 (ament_lint_auto_find_test_dependencies)\n'}
+[1.823736] (ldlidar_component) StderrLine: {'line': b'\n'}
+[1.824019] (ldlidar_component) StderrLine: {'line': b'\x1b[0m\n'}
+[1.824316] (ldlidar_component) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.849818] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.853057] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.906823] (-) TimerEvent: {}
+[1.911584] (imu_calib) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.914612] (imu_calib) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.006919] (-) TimerEvent: {}
+[2.064385] (ldlidar_stl_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.107120] (-) TimerEvent: {}
+[2.123202] (imu_calib) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.198681] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[2.207226] (-) TimerEvent: {}
+[2.251095] (ldlidar_component) CommandEnded: {'returncode': 1}
+[2.266129] (imu_calib) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[2.307594] (-) TimerEvent: {}
+[2.327867] (ldlidar_component) JobEnded: {'identifier': 'ldlidar_component', 'rc': 1}
+[2.372765] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.407725] (-) TimerEvent: {}
+[2.428621] (imu_calib) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[2.432324] (imu_calib) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 9.0.1 (/opt/ros/jazzy/share/yaml_cpp_vendor/cmake)\n'}
+[2.432808] (imu_calib) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'\n"}
+[2.439000] (ldlidar_stl_ros2) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.439503] (ldlidar_stl_ros2) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>\n'}
+[2.439848] (ldlidar_stl_ros2) StderrLine: {'line': b'    from catkin_pkg.package import parse_package_string\n'}
+[2.440176] (ldlidar_stl_ros2) StderrLine: {'line': b"ModuleNotFoundError: No module named 'catkin_pkg'\n"}
+[2.442262] (imu_calib) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.449761] (ldlidar_stl_ros2) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[2.450252] (ldlidar_stl_ros2) StderrLine: {'line': b'  execute_process(/home/oli/miniforge3/bin/python3\n'}
+[2.450532] (ldlidar_stl_ros2) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[2.450786] (ldlidar_stl_ros2) StderrLine: {'line': b'  /home/oli/workspace/ros2_ws/src/ldlidar_stl_ros2/package.xml\n'}
+[2.451000] (ldlidar_stl_ros2) StderrLine: {'line': b'  /home/oli/workspace/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_core/package.cmake)\n'}
+[2.451386] (ldlidar_stl_ros2) StderrLine: {'line': b'  returned error code 1\n'}
+[2.451611] (ldlidar_stl_ros2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.451842] (ldlidar_stl_ros2) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[2.452065] (ldlidar_stl_ros2) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[2.452331] (ldlidar_stl_ros2) StderrLine: {'line': b'  CMakeLists.txt:31 (ament_lint_auto_find_test_dependencies)\n'}
+[2.452581] (ldlidar_stl_ros2) StderrLine: {'line': b'\n'}
+[2.452822] (ldlidar_stl_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[2.453073] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.472093] (ldlidar_stl_ros2) JobEnded: {'identifier': 'ldlidar_stl_ros2', 'rc': 'SIGINT'}
+[2.495222] (imu_calib) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.495727] (imu_calib) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>\n'}
+[2.495993] (imu_calib) StderrLine: {'line': b'    from catkin_pkg.package import parse_package_string\n'}
+[2.496276] (imu_calib) StderrLine: {'line': b"ModuleNotFoundError: No module named 'catkin_pkg'\n"}
+[2.503203] (imu_calib) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[2.503760] (imu_calib) StderrLine: {'line': b'  execute_process(/home/oli/miniforge3/bin/python3\n'}
+[2.504023] (imu_calib) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[2.504291] (imu_calib) StderrLine: {'line': b'  /home/oli/workspace/ros2_ws/src/imu_calib/package.xml\n'}
+[2.504536] (imu_calib) StderrLine: {'line': b'  /home/oli/workspace/ros2_ws/build/imu_calib/ament_cmake_core/package.cmake)\n'}
+[2.504767] (imu_calib) StderrLine: {'line': b'  returned error code 1\n'}
+[2.504993] (imu_calib) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.505417] (imu_calib) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[2.505642] (imu_calib) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[2.505873] (imu_calib) StderrLine: {'line': b'  CMakeLists.txt:65 (ament_lint_auto_find_test_dependencies)\n'}
+[2.506105] (imu_calib) StderrLine: {'line': b'\n'}
+[2.506351] (imu_calib) StderrLine: {'line': b'\x1b[0m\n'}
+[2.506605] (imu_calib) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.507831] (-) TimerEvent: {}
+[2.524169] (imu_calib) JobEnded: {'identifier': 'imu_calib', 'rc': 'SIGINT'}
+[2.607949] (-) TimerEvent: {}
+[2.708349] (-) TimerEvent: {}
+[2.808774] (-) TimerEvent: {}
+[2.909226] (-) TimerEvent: {}
+[3.009641] (-) TimerEvent: {}
+[3.110029] (-) TimerEvent: {}
+[3.210432] (-) TimerEvent: {}
+[3.310837] (-) TimerEvent: {}
+[3.411254] (-) TimerEvent: {}
+[3.511681] (-) TimerEvent: {}
+[3.581514] (ros_robot_controller) JobEnded: {'identifier': 'ros_robot_controller', 'rc': 'SIGINT'}
+[3.610435] (mentorpi_description) JobEnded: {'identifier': 'mentorpi_description', 'rc': 'SIGINT'}
+[3.611809] (-) TimerEvent: {}
+[3.683925] (controller) JobEnded: {'identifier': 'controller', 'rc': 'SIGINT'}
+[3.711938] (-) TimerEvent: {}
+[3.812288] (-) TimerEvent: {}
+[3.912665] (-) TimerEvent: {}
+[3.981186] (calibration) JobEnded: {'identifier': 'calibration', 'rc': 'SIGINT'}
+[4.012802] (-) TimerEvent: {}
+[4.017599] (peripherals) JobEnded: {'identifier': 'peripherals', 'rc': 'SIGINT'}
+[4.029768] (ros_robot_controller_msgs) JobSkipped: {'identifier': 'ros_robot_controller_msgs'}
+[4.029923] (sdk) JobSkipped: {'identifier': 'sdk'}
+[4.029996] (ldlidar_node) JobSkipped: {'identifier': 'ldlidar_node'}
+[4.030094] (orchestrator_launch) JobSkipped: {'identifier': 'orchestrator_launch'}
+[4.030168] (ldlidar) JobSkipped: {'identifier': 'ldlidar'}
+[4.030228] (-) EventReactorShutdown: {}

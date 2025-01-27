@@ -1,0 +1,32 @@
+[1.302s] Invoking command in '/home/oli/workspace/ros2_ws/build/imu_calib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/oli/workspace/ros2_ws/src/imu_calib -DCMAKE_INSTALL_PREFIX=/home/oli/workspace/ros2_ws/install/imu_calib
+[1.759s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.759s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.760s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.760s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.762s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.762s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.865s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.868s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.077s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.220s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.382s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[2.386s] -- Found yaml_cpp_vendor: 9.0.1 (/opt/ros/jazzy/share/yaml_cpp_vendor/cmake)
+[2.386s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[2.396s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.449s] Traceback (most recent call last):
+[2.449s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[2.449s]     from catkin_pkg.package import parse_package_string
+[2.450s] ModuleNotFoundError: No module named 'catkin_pkg'
+[2.457s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[2.457s]   execute_process(/home/oli/miniforge3/bin/python3
+[2.457s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[2.458s]   /home/oli/workspace/ros2_ws/src/imu_calib/package.xml
+[2.458s]   /home/oli/workspace/ros2_ws/build/imu_calib/ament_cmake_core/package.cmake)
+[2.458s]   returned error code 1
+[2.458s] Call Stack (most recent call first):
+[2.459s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[2.459s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[2.459s]   CMakeLists.txt:65 (ament_lint_auto_find_test_dependencies)
+[2.459s] 
+[2.460s] [0m
+[2.460s] -- Configuring incomplete, errors occurred!

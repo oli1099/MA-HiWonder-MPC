@@ -1,0 +1,43 @@
+[0.116s] Invoking command in '/home/oli/workspace/ros2_ws/build/ldlidar_component': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/oli/workspace/ros2_ws/src/ldrobot-lidar-ros2/ldlidar_component -DCMAKE_INSTALL_PREFIX=/home/oli/workspace/ros2_ws/install/ldlidar_component
+[2.324s] --  * Release Mode
+[2.324s] -- * Found ROS2 jazzy
+[2.325s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.325s] -- Found rclcpp_lifecycle: 28.1.6 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.325s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.327s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.328s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.328s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.328s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.328s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.329s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.329s] -- Found rclcpp_components: 28.1.6 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[2.329s] -- Found nav2_util: 1.3.4 (/opt/ros/jazzy/share/nav2_util/cmake)
+[2.329s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[2.330s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.330s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.330s] -- Found diagnostic_msgs: 5.3.5 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)
+[2.330s] -- Found diagnostic_updater: 4.2.1 (/opt/ros/jazzy/share/diagnostic_updater/cmake)
+[2.331s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.331s] -- Configuring incomplete, errors occurred!
+[2.332s] [33mCMake Warning at CMakeLists.txt:72 (message):
+[2.332s]   ROS2 jazzy is not officially supported by this package.  Correct working is
+[2.332s]   not guarantee.
+[2.333s] 
+[2.333s] [0m
+[2.333s] Traceback (most recent call last):
+[2.333s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[2.333s]     from catkin_pkg.package import parse_package_string
+[2.334s] ModuleNotFoundError: No module named 'catkin_pkg'
+[2.334s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[2.334s]   execute_process(/home/oli/miniforge3/bin/python3
+[2.335s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[2.335s]   /home/oli/workspace/ros2_ws/src/ldrobot-lidar-ros2/ldlidar_component/package.xml
+[2.335s]   /home/oli/workspace/ros2_ws/build/ldlidar_component/ament_cmake_core/package.cmake)
+[2.336s]   returned error code 1
+[2.336s] Call Stack (most recent call first):
+[2.336s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[2.337s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[2.337s]   CMakeLists.txt:204 (ament_lint_auto_find_test_dependencies)
+[2.339s] 
+[2.339s] [0m
+[2.351s] Invoked command in '/home/oli/workspace/ros2_ws/build/ldlidar_component' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/oli/workspace/ros2_ws/src/ldrobot-lidar-ros2/ldlidar_component -DCMAKE_INSTALL_PREFIX=/home/oli/workspace/ros2_ws/install/ldlidar_component

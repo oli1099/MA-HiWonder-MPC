@@ -1,0 +1,32 @@
+[0.936s] Invoking command in '/home/oli/workspace/ros2_ws/build/imu_calib': CMAKE_PREFIX_PATH=/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy:/home/oli/catkin_ws/devel:/home/oli/miniforge3/envs/ros_env CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/oli/miniforge3/envs/ros_env/bin/cmake /home/oli/workspace/ros2_ws/src/imu_calib -DCMAKE_INSTALL_PREFIX=/home/oli/workspace/ros2_ws/install/imu_calib
+[1.261s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.261s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.261s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.261s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.262s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.262s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.263s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.263s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.403s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.490s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.572s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.577s] -- Found yaml_cpp_vendor: 9.0.1 (/opt/ros/jazzy/share/yaml_cpp_vendor/cmake)
+[1.578s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[1.584s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.626s] Traceback (most recent call last):
+[1.626s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[1.626s]     from catkin_pkg.package import parse_package_string
+[1.626s] ModuleNotFoundError: No module named 'catkin_pkg'
+[1.636s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.637s]   execute_process(/home/oli/miniforge3/bin/python3
+[1.637s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.638s]   /home/oli/workspace/ros2_ws/src/imu_calib/package.xml
+[1.638s]   /home/oli/workspace/ros2_ws/build/imu_calib/ament_cmake_core/package.cmake)
+[1.638s]   returned error code 1
+[1.638s] Call Stack (most recent call first):
+[1.638s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.639s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.639s]   CMakeLists.txt:65 (ament_lint_auto_find_test_dependencies)
+[1.639s] 
+[1.639s] [0m
+[1.642s] -- Configuring incomplete, errors occurred!

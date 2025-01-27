@@ -1,0 +1,55 @@
+[3.613s] Invoking command in '/home/oli/workspace/ros2_ws/src/driver/controller': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/oli/workspace/ros2_ws/build/controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/oli/workspace/ros2_ws/install/controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/controller build --build-base /home/oli/workspace/ros2_ws/build/controller/build install --record /home/oli/workspace/ros2_ws/build/controller/install.log --single-version-externally-managed install_data
+[4.261s] running egg_info
+[4.262s] creating ../../../build/controller/controller.egg-info
+[4.308s] writing ../../../build/controller/controller.egg-info/PKG-INFO
+[4.310s] writing dependency_links to ../../../build/controller/controller.egg-info/dependency_links.txt
+[4.310s] writing entry points to ../../../build/controller/controller.egg-info/entry_points.txt
+[4.310s] writing requirements to ../../../build/controller/controller.egg-info/requires.txt
+[4.310s] writing top-level names to ../../../build/controller/controller.egg-info/top_level.txt
+[4.311s] writing manifest file '../../../build/controller/controller.egg-info/SOURCES.txt'
+[4.377s] reading manifest file '../../../build/controller/controller.egg-info/SOURCES.txt'
+[4.377s] writing manifest file '../../../build/controller/controller.egg-info/SOURCES.txt'
+[4.378s] running build
+[4.378s] running build_py
+[4.378s] creating /home/oli/workspace/ros2_ws/build/controller/build
+[4.378s] creating /home/oli/workspace/ros2_ws/build/controller/build/lib
+[4.379s] creating /home/oli/workspace/ros2_ws/build/controller/build/lib/controller
+[4.379s] copying controller/odom_publisher_node.py -> /home/oli/workspace/ros2_ws/build/controller/build/lib/controller
+[4.379s] copying controller/mecanum.py -> /home/oli/workspace/ros2_ws/build/controller/build/lib/controller
+[4.379s] copying controller/ackermann.py -> /home/oli/workspace/ros2_ws/build/controller/build/lib/controller
+[4.379s] copying controller/__init__.py -> /home/oli/workspace/ros2_ws/build/controller/build/lib/controller
+[4.380s] copying controller/init_pose.py -> /home/oli/workspace/ros2_ws/build/controller/build/lib/controller
+[4.380s] running install
+[4.388s] running install_lib
+[4.431s] creating /home/oli/workspace/ros2_ws/install/controller/lib/python3.12/site-packages/controller
+[4.431s] copying /home/oli/workspace/ros2_ws/build/controller/build/lib/controller/odom_publisher_node.py -> /home/oli/workspace/ros2_ws/install/controller/lib/python3.12/site-packages/controller
+[4.431s] copying /home/oli/workspace/ros2_ws/build/controller/build/lib/controller/mecanum.py -> /home/oli/workspace/ros2_ws/install/controller/lib/python3.12/site-packages/controller
+[4.431s] copying /home/oli/workspace/ros2_ws/build/controller/build/lib/controller/ackermann.py -> /home/oli/workspace/ros2_ws/install/controller/lib/python3.12/site-packages/controller
+[4.431s] copying /home/oli/workspace/ros2_ws/build/controller/build/lib/controller/__init__.py -> /home/oli/workspace/ros2_ws/install/controller/lib/python3.12/site-packages/controller
+[4.432s] copying /home/oli/workspace/ros2_ws/build/controller/build/lib/controller/init_pose.py -> /home/oli/workspace/ros2_ws/install/controller/lib/python3.12/site-packages/controller
+[4.432s] byte-compiling /home/oli/workspace/ros2_ws/install/controller/lib/python3.12/site-packages/controller/odom_publisher_node.py to odom_publisher_node.cpython-312.pyc
+[4.436s] byte-compiling /home/oli/workspace/ros2_ws/install/controller/lib/python3.12/site-packages/controller/mecanum.py to mecanum.cpython-312.pyc
+[4.437s] byte-compiling /home/oli/workspace/ros2_ws/install/controller/lib/python3.12/site-packages/controller/ackermann.py to ackermann.cpython-312.pyc
+[4.437s] byte-compiling /home/oli/workspace/ros2_ws/install/controller/lib/python3.12/site-packages/controller/__init__.py to __init__.cpython-312.pyc
+[4.438s] byte-compiling /home/oli/workspace/ros2_ws/install/controller/lib/python3.12/site-packages/controller/init_pose.py to init_pose.cpython-312.pyc
+[4.439s] running install_data
+[4.441s] creating /home/oli/workspace/ros2_ws/install/controller/share/ament_index
+[4.442s] creating /home/oli/workspace/ros2_ws/install/controller/share/ament_index/resource_index
+[4.442s] creating /home/oli/workspace/ros2_ws/install/controller/share/ament_index/resource_index/packages
+[4.442s] copying resource/controller -> /home/oli/workspace/ros2_ws/install/controller/share/ament_index/resource_index/packages
+[4.442s] copying package.xml -> /home/oli/workspace/ros2_ws/install/controller/share/controller
+[4.442s] creating /home/oli/workspace/ros2_ws/install/controller/share/controller/launch
+[4.443s] copying launch/rf2o_laser_odometry.launch.py -> /home/oli/workspace/ros2_ws/install/controller/share/controller/launch
+[4.443s] copying launch/odom_publisher.launch.py -> /home/oli/workspace/ros2_ws/install/controller/share/controller/launch
+[4.444s] copying launch/controller.launch.py -> /home/oli/workspace/ros2_ws/install/controller/share/controller/launch
+[4.444s] copying launch/init_pose.launch.py -> /home/oli/workspace/ros2_ws/install/controller/share/controller/launch
+[4.444s] creating /home/oli/workspace/ros2_ws/install/controller/share/controller/config
+[4.444s] copying config/calibrate_params.yaml -> /home/oli/workspace/ros2_ws/install/controller/share/controller/config
+[4.445s] copying config/init_pose.yaml -> /home/oli/workspace/ros2_ws/install/controller/share/controller/config
+[4.445s] copying config/ekf.yaml -> /home/oli/workspace/ros2_ws/install/controller/share/controller/config
+[4.445s] running install_egg_info
+[4.490s] Copying ../../../build/controller/controller.egg-info to /home/oli/workspace/ros2_ws/install/controller/lib/python3.12/site-packages/controller-0.0.0-py3.12.egg-info
+[4.491s] running install_scripts
+[4.852s] Installing init_pose script to /home/oli/workspace/ros2_ws/install/controller/lib/controller
+[4.853s] Installing odom_publisher script to /home/oli/workspace/ros2_ws/install/controller/lib/controller
+[4.853s] writing list of installed files to '/home/oli/workspace/ros2_ws/build/controller/install.log'

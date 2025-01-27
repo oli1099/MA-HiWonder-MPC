@@ -1,0 +1,48 @@
+[1.000s] Invoking command in '/home/oli/workspace/ros2_ws/build/imu_calib': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/oli/miniforge3/envs/ros_env/bin/cmake /home/oli/workspace/ros2_ws/src/imu_calib -DCMAKE_INSTALL_PREFIX=/home/oli/workspace/ros2_ws/install/imu_calib
+[1.382s] -- The C compiler identification is GNU 13.3.0
+[1.382s] -- The CXX compiler identification is GNU 13.3.0
+[1.382s] -- Detecting C compiler ABI info
+[1.474s] -- Detecting C compiler ABI info - done
+[1.500s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.501s] -- Detecting C compile features
+[1.502s] -- Detecting C compile features - done
+[1.509s] -- Detecting CXX compiler ABI info
+[1.618s] -- Detecting CXX compiler ABI info - done
+[1.630s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.630s] -- Detecting CXX compile features
+[1.631s] -- Detecting CXX compile features - done
+[1.634s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.272s] -- Found Python3: /home/oli/miniforge3/bin/python3 (found version "3.12.7") found components: Interpreter 
+[2.506s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.596s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.625s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.663s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.705s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.880s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.888s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.423s] -- Found OpenSSL: /home/oli/miniforge3/envs/ros_env/lib/libcrypto.so (found version "3.1.7")  
+[3.512s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.639s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.816s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[3.961s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.974s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.978s] -- Found yaml_cpp_vendor: 9.0.1 (/opt/ros/jazzy/share/yaml_cpp_vendor/cmake)
+[3.982s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[3.995s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.042s] Traceback (most recent call last):
+[4.046s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[4.046s]     from catkin_pkg.package import parse_package_string
+[4.046s] ModuleNotFoundError: No module named 'catkin_pkg'
+[4.050s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[4.050s]   execute_process(/home/oli/miniforge3/bin/python3
+[4.050s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[4.051s]   /home/oli/workspace/ros2_ws/src/imu_calib/package.xml
+[4.051s]   /home/oli/workspace/ros2_ws/build/imu_calib/ament_cmake_core/package.cmake)
+[4.051s]   returned error code 1
+[4.051s] Call Stack (most recent call first):
+[4.052s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[4.053s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[4.054s]   CMakeLists.txt:65 (ament_lint_auto_find_test_dependencies)
+[4.054s] 
+[4.055s] [0m
+[4.057s] -- Configuring incomplete, errors occurred!

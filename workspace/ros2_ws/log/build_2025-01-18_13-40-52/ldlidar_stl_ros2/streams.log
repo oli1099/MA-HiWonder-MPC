@@ -1,0 +1,29 @@
+[1.331s] Invoking command in '/home/oli/workspace/ros2_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/oli/workspace/ros2_ws/src/ldlidar_stl_ros2 -DCMAKE_INSTALL_PREFIX=/home/oli/workspace/ros2_ws/install/ldlidar_stl_ros2
+[2.288s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.289s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.289s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.289s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.290s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.290s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.291s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.291s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.292s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.293s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.293s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.302s] Traceback (most recent call last):
+[2.303s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[2.303s]     from catkin_pkg.package import parse_package_string
+[2.303s] ModuleNotFoundError: No module named 'catkin_pkg'
+[2.311s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[2.311s]   execute_process(/home/oli/miniforge3/bin/python3
+[2.311s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[2.312s]   /home/oli/workspace/ros2_ws/src/ldlidar_stl_ros2/package.xml
+[2.312s]   /home/oli/workspace/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_core/package.cmake)
+[2.312s]   returned error code 1
+[2.313s] Call Stack (most recent call first):
+[2.320s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[2.320s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[2.321s]   CMakeLists.txt:31 (ament_lint_auto_find_test_dependencies)
+[2.321s] 
+[2.321s] [0m
+[2.321s] -- Configuring incomplete, errors occurred!

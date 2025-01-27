@@ -1,0 +1,58 @@
+[0.060s] Invoking command in '/home/oli/workspace/ros2_ws/build/ldlidar_component': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/oli/miniforge3/envs/ros_env/bin/cmake /home/oli/workspace/ros2_ws/src/ldrobot-lidar-ros2/ldlidar_component -DCMAKE_INSTALL_PREFIX=/home/oli/workspace/ros2_ws/install/ldlidar_component
+[1.408s] -- The C compiler identification is GNU 13.3.0
+[1.408s] -- The CXX compiler identification is GNU 13.3.0
+[1.409s] -- Detecting C compiler ABI info
+[1.409s] -- Detecting C compiler ABI info - done
+[1.410s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.410s] -- Detecting C compile features
+[1.410s] -- Detecting C compile features - done
+[1.410s] -- Detecting CXX compiler ABI info
+[1.410s] -- Detecting CXX compiler ABI info - done
+[1.411s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.411s] -- Detecting CXX compile features
+[1.411s] -- Detecting CXX compile features - done
+[1.411s] --  * Release Mode
+[1.411s] -- * Found ROS2 jazzy
+[1.412s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.413s] [33mCMake Warning at CMakeLists.txt:72 (message):
+[1.413s]   ROS2 jazzy is not officially supported by this package.  Correct working is
+[1.413s]   not guarantee.
+[1.413s] 
+[1.413s] [0m
+[1.424s] -- Found Python3: /home/oli/miniforge3/bin/python3 (found version "3.12.7") found components: Interpreter 
+[1.594s] -- Found rclcpp_lifecycle: 28.1.6 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.706s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.739s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.782s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.828s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.097s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.111s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.784s] -- Found OpenSSL: /home/oli/miniforge3/envs/ros_env/lib/libcrypto.so (found version "3.1.7")  
+[2.852s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.938s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.202s] -- Found rclcpp_components: 28.1.6 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[3.397s] -- Found nav2_util: 1.3.4 (/opt/ros/jazzy/share/nav2_util/cmake)
+[4.209s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[4.212s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.212s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.333s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[4.391s] -- Found diagnostic_msgs: 5.3.5 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)
+[4.442s] -- Found diagnostic_updater: 4.2.1 (/opt/ros/jazzy/share/diagnostic_updater/cmake)
+[4.478s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.521s] Traceback (most recent call last):
+[4.521s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[4.523s]     from catkin_pkg.package import parse_package_string
+[4.523s] ModuleNotFoundError: No module named 'catkin_pkg'
+[4.528s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[4.528s]   execute_process(/home/oli/miniforge3/bin/python3
+[4.528s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[4.528s]   /home/oli/workspace/ros2_ws/src/ldrobot-lidar-ros2/ldlidar_component/package.xml
+[4.529s]   /home/oli/workspace/ros2_ws/build/ldlidar_component/ament_cmake_core/package.cmake)
+[4.529s]   returned error code 1
+[4.529s] Call Stack (most recent call first):
+[4.529s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[4.529s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[4.529s]   CMakeLists.txt:204 (ament_lint_auto_find_test_dependencies)
+[4.529s] 
+[4.530s] [0m
+[4.530s] -- Configuring incomplete, errors occurred!

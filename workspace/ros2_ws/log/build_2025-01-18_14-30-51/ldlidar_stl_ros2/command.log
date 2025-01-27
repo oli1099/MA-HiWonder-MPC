@@ -1,0 +1,1 @@
+Invoking command in '/home/oli/workspace/ros2_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/oli/workspace/ros2_ws/src/ldlidar_stl_ros2 -DCMAKE_INSTALL_PREFIX=/home/oli/workspace/ros2_ws/install/ldlidar_stl_ros2
