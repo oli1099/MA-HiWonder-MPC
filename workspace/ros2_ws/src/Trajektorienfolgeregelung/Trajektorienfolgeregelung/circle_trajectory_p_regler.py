@@ -136,9 +136,22 @@ class MecanumChassis:
 def main(args=None):
     rclpy.init(args=args)
     node = CircleTrajectoryController()
-    rclpy.spin(node)
-    node.destroy_node()
-    rclpy.shutdown()
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        node.get_logger().info("Node wird beendet... Roboter wird gestoppt.")
+    finally:
+        # Stop-Botschaft an die Motoren senden
+        stop_command = node.mecanum_chassis.set_velocity(0.0, 0.0, 0.0)
+        node.motor_pub.publish(stop_command)
+
+        node.get_logger().info("Roboter gestoppt. Node wird zerstört.")
+        node.destroy_node()
+        rclpy.shutdown()
+
+    #rclpy.spin(node)
+    #node.destroy_node()
+    #rclpy.shutdown()
 
 
 if __name__ == '__main__':
