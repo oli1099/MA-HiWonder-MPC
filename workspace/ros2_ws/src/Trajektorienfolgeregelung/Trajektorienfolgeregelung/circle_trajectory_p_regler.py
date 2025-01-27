@@ -6,6 +6,7 @@ from geometry_msgs.msg import Twist
 from ros_robot_controller_msgs.msg import MotorsState, MotorState
 import numpy as np
 import math
+import time
 
 class CircleTrajectoryController(Node):
     def __init__(self):
@@ -144,6 +145,8 @@ def main(args=None):
         # Stop-Botschaft an die Motoren senden
         stop_command = node.mecanum_chassis.set_velocity(0.0, 0.0, 0.0)
         node.motor_pub.publish(stop_command)
+
+        time.sleep(0.5)
 
         node.get_logger().info("Roboter gestoppt. Node wird zerstört.")
         node.destroy_node()
